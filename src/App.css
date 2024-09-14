@@ -1,0 +1,38 @@
+.body.light {
+  background-color: white;
+  color: black;
+}
+
+.body.light a {
+  color: black;
+}
+
+.body.dark {
+  background-color: black;
+  color: white;
+}
+
+.body.dark a {
+  color: white;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.layoutHeader {
+  border-bottom: 1px solid grey;
+  padding: 0.5em 2em;
+}
+
+.layoutOutlet {
+  height: 80%;
+  flex: 2;
+  overflow: auto;
+  padding: 1em 2em;
+}

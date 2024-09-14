@@ -1,0 +1,21 @@
+.genres {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 0.2em;
+  flex-wrap: wrap;
+  top: 0.2em;
+  left: 0.2em;
+}
+
+.genre {
+  font-size: 0.8em;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.2em;
+}
+
+.dark .genre {
+  background-color: black;
+}

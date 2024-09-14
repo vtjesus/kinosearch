@@ -1,0 +1,23 @@
+.link {
+  display: inline-block;
+}
+
+.imgWrap {
+  position: relative;
+  width: 12em;
+  height: 18em;
+}
+
+.movieListItem .poster {
+  width: 12em;
+  position: absolute;
+}
+
+.stars {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}

@@ -1,0 +1,14 @@
+.paginationList {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.paginationList li {
+  border: 1px solid gray;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}

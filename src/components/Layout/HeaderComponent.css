@@ -1,0 +1,44 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 0.5em
+}
+
+.avatar {
+  width: 2.5em;
+  margin-right: 1em;
+}
+
+.logo {
+  font-size: 2.5em;
+}
+
+.darkLightSwitcher {
+  width: 2.5em;
+  margin-left: 4em;
+}
+
+.search {
+  width: 30%;
+  min-width: 20em;
+}
+
+.search input {
+  height: 3em;
+  width: 100%;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
